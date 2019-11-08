@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
+  h1 {
+    padding-bottom: 10px;
+    font-family: sans-serif;
+    font-weight: 700;
+    text-align: center;
+    }
+
+  h2 {
+    font-family: sans-serif;
+    font-weight: 400;
+  }
+
+  header {
+    background-color: rgb(147, 112, 219);
+    width: 750px;
+    height: auto;
+    padding: 20px;
+
+    border-top-width: 4px;
+    border-top-style: solid;
+    border-top-color: rgb(0, 0, 0);
+
+    border-left-width: 4px;
+    border-left-style: solid;
+    border-left-color: rgb(0, 0, 0);
+
+    border-right: 4px;
+    border-right-style: solid;
+    border-right-color: rgb(0, 0, 0);
+
+    margin: 0 auto;
+    }
+
+  main {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    background-color: rgb(147 112 219);
+    width: 750px;
+    height: auto;
+    padding: 20px;
+
+    border-left-width: 4px;
+    border-left-style: solid;
+    border-left-color: rgb(0, 0, 0);
+
+    border-right: 4px;
+    border-right-style: solid;
+    border-right-color: rgb(0, 0, 0);
+
+    margin: auto;
+  }
+
+  footer {
+    font-family: sans-serif;
+    font-weight: 400;
+
+    background-color: rgb(147, 112, 219);
+    width: 750px;
+    height: auto;
+    padding: 20px;
+
+    border-bottom-width: 4px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(0, 0, 0);
+
+    border-left-width: 4px;
+    border-left-style: solid;
+    border-left-color: rgb(0, 0, 0);
+
+    border-right-width: 4px;
+    border-right-style: solid;
+    border-right-color: rgb(0, 0, 0);
+
+    margin: auto;
+    text-align: center;
+  }
+
+  nav {
+    background-color: rgb(216, 191, 216);
+    text-align: center;
+
+    width: 750px;
+    height: auto;
+    padding: 20px;
+
+    border-left-width: 4px;
+    border-left-style: solid;
+    border-left-color: rgb(0, 0, 0);
+
+    border-right: 4px;
+    border-right-style: solid;
+    border-right-color: rgb(0, 0, 0);
+
+    margin: auto;
+  }
+
+  nav a {
+  list-style: none;
+  display: inline;
+  margin-right: 20px;
+  padding: 5px;
+
+  font-family: 'Open Sans';
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  }
+
+  nav a:hover {
+    background-color: rgb(128, 128, 128);
+  }
+
+  nav a:active {
+    background-color: rgb(128, 0, 128);
+  }
+
+  img {
+    float: left;
+    margin-right: 10px;
+    border: 2px solid rgb(0, 0, 0);
+  }
+
+  #education {
+    width: 750px;
+    height: auto;
+    margin: 20px auto;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    grid-column-gap: 20px;
+    padding-bottom: 20px;
+    padding-top: 30px;
+  }
+
+  #move1 {
+    padding-top: 20px;
+  }
+
+  #sai {
+    padding-top: 20px;
+  }
+
+  #position {
+    text-align: center;
+  }
