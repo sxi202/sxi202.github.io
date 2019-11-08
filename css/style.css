@@ -118,7 +118,7 @@
 
   img {
     float: left;
-    margin-right: 10px;
+    margin-right: 20px;
     border: 2px solid rgb(0, 0, 0);
   }
 
@@ -134,11 +134,7 @@
     padding-top: 30px;
   }
 
-  #move1 {
-    padding-top: 20px;
-  }
-
-  #sai {
+  #move1, #sai {
     padding-top: 20px;
   }
 
